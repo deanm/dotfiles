@@ -1,0 +1,5 @@
+shell -/bin/bash
+startup_message off
+escape ^Ff
+hardstatus string "%-w[%n %t]%+w"
+termcapinfo xterm* ti@:te@
